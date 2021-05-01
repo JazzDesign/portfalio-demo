@@ -1,15 +1,39 @@
+@import "./button.css";
+@import "./icons.css";
+@import "./header.css";
+@import "./hero.css";
+@import "./wrapper.css";
+@import "./menu.css";
+@import "./comment.css";
+@import "./project.css";
+@import "./social.css";
+@import "./form.css";
+@import "./title.css";
+@import "./footer.css";
+
 /* Variables */
 :root{
+  --fontBase: 'Oxygen', sans-serif;
+  --headline-1: bold 95px/153.71px var(--fontBase);
+  --headline-2: bold 59px/95px var(--fontBase);
+  --headline-3: bold 48px/77px var(--fontBase);
+  --headline-4: bold 34px/55px var(--fontBase);
+  --headline-5: bold 24px/38px var(--fontBase);
+  --body-1: 16px/25px var(--fontBase);
+  --body-2: 14px/22px var(--fontBase);
+  --button: bold 14px/22px var(--fontBase);
+  --caption: 12px/19px var(--fontBase);
   --gradient-1: linear-gradient(135deg, #FAD7A1 0%, #E96D71 100%);
   --gradient-2: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
-
+  --black: #0F0A0A;
+  --primary: #42E2B8;
+  --white: white;
 }
 
 body{
-  background: var(--gradient-2);
+  background: var(--gradient-1);
   min-block-size: 100vh;
-}
-.header{
-  display: flex;
-  justify-content: space-between;
+  font: var(--body-1);
+  color: var(--black);
+  margin: 0;
 }

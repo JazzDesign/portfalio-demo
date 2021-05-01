@@ -6,10 +6,147 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portafolio</title>
   <link rel="stylesheet" href="assets/css/index.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <header class="header">
-    <img src="./assets/images/LOGO.png" width="70" height="20" alt="Logotipo pagina">
-    <button>Curriculum</button>
+    <div class="wrapper">
+      <div class="header-content">
+        <img src="./assets/images/LOGO.png" width="70" height="20" alt="Logotipo pagina">
+        <nav class="menu" aria-label="main-navigation">
+          <ul>
+            <li><a href="#main" class="is-active">Hola</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contact">Hablemos</a></li>
+          </ul>
+        </nav>
+        <button class="button">Curriculum</button>
+      </div>
+    </div>
   </header>
+  <div class="wrapper">
+
+    <section aria-label="main" class="hero" id="main">
+      <div class="hero-image">
+        <img src="./assets/images/elisa.png" width="338" height="330" alt="foto portafolio">
+      </div>
+      <div class="hero-description">
+        <h1>
+          <span>¡Hola a todos!</span>
+          <span>Soy Elisa</span>
+        </h1>
+        <p>
+          Una Frontend Developer que le encanta implementar diseños que inspiran y atraen a las personas.
+        </p>
+        <div class="social">
+          <a href="tel:22222222" class="button-icon"><img src="./assets/images/icons/icon-phone.svg" alt="icono github"></a>
+          <a href="mailto:rabelyj@gmail.com" class="button-icon"><img src="./assets/images/icons/icon-important_mail.svg" alt="icono github"></a>
+          <a href="#" class="button-icon"><img src="./assets/images/icons/icon-instagram.svg" alt="icono github"></a>
+          <a href="#" class="button-icon"><img src="./assets/images/icons/icon-twitter_squared.svg" alt="icono github"></a>
+        </div>
+        <a href="#" class="button">Descargar Curriculum</a>
+      </div>
+    </section>
+
+    <section class="comment">
+      <div class="comment-content">
+        <h3>
+          A lo largo de mi carrera como Frontend, he tenido el privilegio de trabajar en proyectos retadores e increíbles
+        </h3>
+        <p>
+          Aquí hay algunos que me gustaría compartir.
+        </p>
+        <a href="#proyectos">
+          <img src="./assets/images/icons/icons-down.svg" width="80" height="80" alt="arrow down">
+        </a>
+      </div>
+    </section>
+    <section class="projects" id="proyectos">
+      <div class="project">
+        <div class="project-image">
+          <img src="./assets/images/projects/landing.png" alt="project 1">
+        </div>
+        <div class="project-description">
+          <a class="title" href="http://jsonchicas.com">jsonchicas.com</a>
+          <p>Accede a más de 120 proyectos que te ayudarán a mejorar
+          tus habilidades como desarrollador Front-End.</p>
+          <a target="_blank" href="#" class="button is-secondary">Ver Código</a>
+          <a target="_blank" href="#" class="button">Ver Proyecto</a>
+        </div>
+      </div>
+
+      <div class="project">
+        <div class="project-image">
+          <img src="./assets/images/projects/superheroes.png" alt="project 2">
+        </div>
+        <div class="project-description">
+          <a class="title" href="http://jsonchicas.com">Super-Heroes</a>
+          <p>Accede a más de 120 proyectos que te ayudarán a mejorar
+            tus habilidades como desarrollador Front-End.</p>
+          <a target="_blank" href="#" class="button is-secondary">Ver Código</a>
+          <a target="_blank" href="#" class="button">Ver Proyecto</a>
+        </div>
+      </div>
+
+      <div class="project" >
+        <div class="project-image">
+          <img src="./assets/images/projects/movies.png" alt="project 3">
+        </div>
+        <div class="project-description">
+          <a class="title" href="http://jsonchicas.com">Movies</a>
+          <p>Accede a más de 120 proyectos que te ayudarán a mejorar
+            tus habilidades como desarrollador Front-End.</p>
+          <a target="_blank" href="#" class="button is-secondary">Ver Código</a>
+          <a target="_blank" href="#" class="button">Ver Proyecto</a>
+        </div>
+      </div>
+    </section>
+
+    <form action="" method="POST" class="form" id="contact">
+      <div class="form-content">
+        <h2 class="title">Hablemos</h2>
+        <p>
+          Si está interesado en trabajar conmigo en su próximo proyecto, no dude en ponerse en contacto conmigo.
+        </p>
+
+        <label for="form-name">Nombre Completo
+          <input required name="name" type="text" id="form-name" placeholder="Juan">
+        </label>
+        <label for="form-email">Correo Electrónico
+          <input required name="email" type="email" id="form-email" placeholder="juan@gmail.com">
+        </label>
+        <label for="form-message">Mensaje
+          <textarea required name="message" id="form-message" cols="30" rows="7" placeholder="Mensaje"></textarea>
+        </label>
+        <button class="button" type="submit">Enviar Mensaje</button>
+      </div>
+    </form>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="./assets/images/LOGO.png" width="70" height="20" alt="Logotipo pagina">
+        </div>
+
+        <div class="social">
+          <a href="tel:22222222" class="button-icon"><img src="./assets/images/icons/icon-phone.svg" alt="icono github"></a>
+          <a href="mailto:rabelyj@gmail.com" class="button-icon"><img src="./assets/images/icons/icon-important_mail.svg"
+              alt="icono github"></a>
+          <a href="#" class="button-icon"><img src="./assets/images/icons/icon-instagram.svg" alt="icono github"></a>
+          <a href="#" class="button-icon"><img src="./assets/images/icons/icon-twitter_squared.svg" alt="icono github"></a>
+        </div>
+        <div class="footer-copyright">
+          <p>
+            Hecho con el ❤️ por JsonChicas.
+          </p>
+          <p>
+             Copyright 2021 - Todos los derechos reservados.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
 </body>

@@ -1,0 +1,13 @@
+.title{
+  background: var(--black);
+  color: var(--primary);
+  align-self: flex-start;
+  font: var(--headline-5);
+  padding-inline-start: 8px;
+  padding-inline-end: 8px;
+  padding-block-start: 4px;
+  padding-block-end: 4px;
+  text-decoration: none;
+  box-shadow: -4px 4px 0 var(--white);
+
+}

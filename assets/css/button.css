@@ -1,0 +1,21 @@
+.button{
+  background: var(--primary);
+  box-sizing: border-box;
+  color: var(--black);
+  font: var(--button);
+  padding-inline-start: 24px;
+  padding-inline-end: 24px;
+  padding-block-start: 13px;
+  padding-block-end: 13px;
+  border: 1px solid var(--black);
+  border-radius: 90px;
+  box-shadow: -4px 4px 14px rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+  text-align: center;
+}
+
+.button.is-secondary{
+  background: unset;
+  border: 2px solid var(--black);
+  filter: drop-shadow(-4px 4px 14px rgba(0, 0, 0, 0.25));
+}
