@@ -3,7 +3,7 @@ This is a portfolio demo created with HTML and CSS full responsive in order to p
 
 ## 📱 Screenshot
 
-![reactmovielist]https://github.com/JazzDesign/portfalio-demo/blob/main/portfolio-screenshot.png)
+![reactmovielist](https://github.com/JazzDesign/portfalio-demo/blob/main/portfolio-screenshot.png)
 
 
 ## 📚 Technical Details
